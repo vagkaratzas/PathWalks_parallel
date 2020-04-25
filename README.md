@@ -10,7 +10,7 @@ Gene network must contain gene symbols.
 Pathway network must contain KEGG hsa pathway ids (example: hsaPathwayEdgelist_commonGenes.tsv, showing functional connections among pathways as found in KEGG and each edge weight represents the number of common genes between two pathways).
 Results: 1. Pathway ranks 2. Re-weighted pathways' network edgelist 3. Pathway clusters
 Example command line call for 6 cores and 1000 iterations per walker, with gene restart every 50 iterations: Rscript pathwalks_parallel.R "geneEdgelistIPF.tsv" "hsaPathwayEdgelistIPF.tsv" 6 1000 50
-The three translation files must be in the same directory with the pathwalks.R script.
+The 2 translation and 1 links files must be in the same directory with the pathwalks.R script.
 
 Use case example input data included.
 
